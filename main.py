@@ -60,7 +60,7 @@ subMenu.add_command(label="Exit", command=root.destroy)
 
 
 def about_us():
-    tkinter.messagebox.showinfo('About Melody', 'This is a music player build using Python Tkinter by @attreyabhatt')
+    tkinter.messagebox.showinfo('About Melody', 'This is a music player built using Python Tkinter by @attreyabhatt')
 
 
 subMenu = Menu(menubar, tearoff=0)
@@ -187,7 +187,7 @@ def pause_music():
 
 def rewind_music():
     play_music()
-    statusbar['text'] = "Music Rewinded"
+    statusbar['text'] = "Music Rewound"
 
 
 def set_vol(val):
